@@ -1,0 +1,17 @@
+.text-banner {
+	margin-top: 86px;
+	background: url(../img/mobile/oksford2-mobile.png);
+	background-size: cover;
+	width: 375px;
+	height: 295px;
+	margin: 0 auto;
+	&__content {
+		padding-top: 37px;
+		margin-left: 48px;
+	}
+	&__text {
+		width: 246px;
+		padding-top: 8px;
+		margin-left: 37px;
+	}
+}

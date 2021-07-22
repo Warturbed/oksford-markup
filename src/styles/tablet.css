@@ -1,0 +1,406 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+.background-vector-img {
+  position: absolute;
+  z-index: -1;
+  left: -180px;
+  top: -29px;
+}
+
+.background-wrapper {
+  margin: 0 auto;
+  background: #f4f4f4;
+  background: linear-gradient(345deg, #f4f4f4 74.2%, white 74.2%);
+  height: 700px;
+  width: 768px;
+}
+
+.wrapper {
+  padding-top: 120px;
+  width: 768px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 718px;
+}
+
+.first-date__text {
+  margin-left: 65.5px;
+  width: 364px;
+}
+
+.second-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 36px;
+  margin-bottom: 11px;
+}
+
+.second-date {
+  margin-left: 290px;
+}
+
+.second-date__date {
+  margin-left: 27.5px;
+  margin-top: 30.3px;
+}
+
+.second-date__text {
+  margin-left: 65px;
+}
+
+.vector {
+  position: relative;
+  width: 2px;
+}
+
+.vector__points {
+  width: 2px;
+  height: 248px;
+}
+
+.vector__circle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: -8px;
+}
+
+.vector__circle_one {
+  top: -10px;
+}
+
+.vector__circle_two {
+  top: 45%;
+}
+
+.vector__circle_three {
+  bottom: -3px;
+}
+
+.achieve {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 5px;
+  height: 84px;
+}
+
+.achieve__trophy-img {
+  width: 63px;
+  height: 84px;
+}
+
+.achieve__container_margin-top {
+  margin-top: 41px;
+}
+
+.achieve__container_mobile {
+  margin-top: 32px;
+  margin-left: 89px;
+}
+
+.achieve__line-img {
+  width: 288px;
+  height: 2px;
+}
+
+.achieve__link {
+  position: relative;
+  font-size: 15px;
+  font-weight: 700;
+  padding-bottom: 5px;
+  border-bottom: 0.5px solid #333333;
+  line-height: 17px;
+  width: 100px;
+}
+
+.achieve__link::before {
+  position: absolute;
+  z-index: -1;
+  top: -6px;
+  left: -18px;
+  content: url(../img/index/trophy-ellypse.png);
+  background-position: center;
+  background-size: cover;
+  width: 35px;
+  height: 35px;
+}
+
+.achieve__link:hover {
+  border-bottom: 0.5px solid #ffe267;
+}
+
+.achieve__trophy-img {
+  width: 63px;
+  height: 84px;
+}
+
+.achieve__line-img {
+  height: 2px;
+  width: 100px;
+  margin-right: 30px;
+  margin-left: 0;
+}
+
+.promo {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  position: relative;
+}
+
+.promo__logo {
+  position: absolute;
+}
+
+.promo__logo {
+  left: 47%;
+  top: 40%;
+  -webkit-transform: translate(-47%, -40%);
+          transform: translate(-47%, -40%);
+  width: 210px;
+  height: 250px;
+}
+
+.dates {
+  margin-bottom: 15px;
+}
+
+.date__content {
+  position: relative;
+}
+
+.date__title {
+  height: 34px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+.date__title_year {
+  height: 34px;
+}
+
+.date__title_year::after {
+  position: relative;
+  content: 'год';
+  font-size: 30px;
+  margin-left: 7px;
+  line-height: 34px;
+  font-weight: 700;
+}
+
+.date__text {
+  margin-top: 29px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.date_white-text {
+  color: #fff;
+}
+
+.date__elipse-img {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 10px;
+  z-index: -1;
+  left: 47px;
+}
+
+.date__triangle-img {
+  position: absolute;
+  z-index: -1;
+  width: 180px;
+  height: 180px;
+  top: -50.5px;
+  left: 0;
+}
+
+.cards {
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  padding: 15px 19px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.card__content {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card__text {
+  font-family: Noto Sans JP;
+  font-size: 22px;
+  line-height: 24.2px;
+  font-weight: 700;
+}
+
+.card__vector-img {
+  margin-right: 38px;
+  width: 150px;
+  height: 150px;
+}
+
+.card__arrow-img {
+  width: 41px;
+  height: 20px;
+}
+
+.card_stretch {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/3;
+}
+
+.card:hover {
+  background-color: #ffe267;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.card-exit {
+  background-color: #ffe267;
+}
+
+.card-exit * {
+  font-weight: 400;
+}
+
+.cards {
+  padding-top: 121px;
+  width: 718px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 227px;
+  grid-gap: 20px;
+}
+
+.card__texture-img {
+  width: 102px;
+  height: 144px;
+}
+
+.card__text {
+  font-size: 20px;
+}
+
+.third-date {
+  width: 354px;
+  height: 280px;
+}
+
+.third-date__content {
+  margin-top: 17px;
+}
+
+.third-date__text {
+  margin-left: 65px;
+  padding-top: 3px;
+}
+
+.oksford-box {
+  height: 280px;
+}
+
+.oksford-box__img {
+  height: 280px;
+  width: 364px;
+}
+
+.text-banner {
+  margin-top: 86px;
+  background: url(../img/tablet/oksford2-tablet.png);
+  background-size: cover;
+  width: 354px;
+  height: 319px;
+}
+
+.text-banner__content {
+  margin-top: 56px;
+  margin-left: 64.5px;
+}
+
+.text-banner__text {
+  width: 237px;
+  padding-top: 2px;
+  margin-left: 0;
+}
+
+.text-box {
+  position: relative;
+}
+
+.text-box__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.text-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.text-box__text {
+  z-index: -1;
+  position: absolute;
+  background-color: #a5e5f4;
+  top: 0;
+  padding: 35px 2px 35px 13px;
+  width: 349px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: Rubik;
+  color: #333333;
+}
+
+body {
+  background-color: #fff;
+}
+/*# sourceMappingURL=tablet.css.map */

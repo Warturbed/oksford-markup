@@ -1,0 +1,14 @@
+.background-vector-img {
+	position: absolute;
+	z-index: -1;
+	left: -165px;
+	top: 115px;
+}
+.background-wrapper {
+	margin: 0 auto;
+	background: rgb(244, 244, 244);
+	background: linear-gradient(344deg, rgba(244, 244, 244, 1) 63.2%, rgba(255, 255, 255, 1) 63.2%);
+	background-position: 0 -35px;
+	height: 800px;
+	width: 1440px;
+}

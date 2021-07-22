@@ -1,0 +1,12 @@
+.text-box {
+	display: flex;
+	align-items: flex-end;
+	&__text {
+		z-index: -1;
+		position: absolute;
+		background-color: #a5e5f4;
+		top: 0;
+		padding: 68px 132px 60px 48px;
+		width: 537px;
+	}
+}

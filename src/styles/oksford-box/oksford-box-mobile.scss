@@ -1,0 +1,12 @@
+.oksford-box {
+	margin-top: 56px;
+	position: relative;
+	height: 245px;
+	&__img {
+		z-index: 1;
+		position: absolute;
+		left: -4px;
+		height: 278px;
+		width: 333px;
+	}
+}

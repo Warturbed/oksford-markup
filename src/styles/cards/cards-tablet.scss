@@ -1,0 +1,16 @@
+.cards {
+	padding-top: 121px;
+	width: 718px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-auto-rows: 227px;
+	grid-gap: 20px;
+}
+.card {
+	&__texture-img {
+		width: 102px;
+		height: 144px;
+	}
+	&__text {
+		font-size: 20px;
+	}
+}

@@ -1,0 +1,35 @@
+@import './background/background-desktop';
+@import './wrapper/wrapper-desktop';
+@import './container/container-desktop';
+@import './first-date/first-date-desktop';
+@import './second-date/second-date';
+@import './second-date/second-date-desktop';
+@import './vector/vector';
+@import './achieve/achieve';
+@import './achieve/achieve-desktop';
+@import './promo/promo';
+@import './promo/promo-desktop';
+@import './dates/dates-desktop';
+@import './date/date';
+@import './date/date-desktop';
+@import './cards/cards';
+@import './cards/cards-desktop';
+@import './third-date/third-date-desktop';
+@import './oksford-box/oksford-box-desktop';
+@import './text-banner/text-banner-desktop';
+@import './text-box/text-box';
+@import './text-box/text-box-desktop';
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: Rubik;
+	color: #333333;
+}
+body {
+	background-color: #fff;
+}

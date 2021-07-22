@@ -1,0 +1,18 @@
+.date {
+	&__elipse-img {
+		position: absolute;
+		width: 120px;
+		height: 120px;
+		top: 10px;
+		z-index: -1;
+		left: 35px;
+	}
+	&__triangle-img {
+		position: absolute;
+		z-index: -1;
+		width: 180px;
+		height: 180px;
+		top: -46.5px;
+		left: 7px;
+	}
+}

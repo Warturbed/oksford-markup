@@ -1,0 +1,35 @@
+@import './background/background-mobile';
+@import './wrapper/wrapper-mobile';
+@import './container/container-mobile';
+@import './first-date/first-date-mobile';
+@import './second-date/second-date';
+@import './second-date/second-date-mobile';
+@import './vector/vector-mobile';
+@import './achieve/achieve';
+@import './achieve/achieve-mobile';
+@import './promo/promo';
+@import './promo/promo-mobile';
+@import './dates/dates-mobile';
+@import './date/date';
+@import './date/date-mobile';
+@import './cards/cards';
+@import './cards/cards-mobile';
+@import './third-date/third-date-mobile';
+@import './oksford-box/oksford-box-mobile';
+@import './text-banner/text-banner-mobile';
+@import './text-box/text-box';
+@import './text-box/text-box-mobile';
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: Rubik;
+	color: #333333;
+}
+body {
+	background-color: #fff;
+}

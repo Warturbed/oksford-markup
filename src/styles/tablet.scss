@@ -1,0 +1,35 @@
+@import './background/background-tablet';
+@import './wrapper/wrapper-tablet';
+@import './container/container-tablet';
+@import './first-date/first-date-tablet';
+@import './second-date/second-date';
+@import './second-date/second-date-tablet';
+@import './vector/vector';
+@import './achieve/achieve';
+@import './achieve/achieve-tablet';
+@import './promo/promo';
+@import './promo/promo-tablet';
+@import './dates/dates-tablet';
+@import './date/date';
+@import './date/date-tablet';
+@import './cards/cards';
+@import './cards/cards-tablet';
+@import './third-date/third-date-tablet';
+@import './oksford-box/oksford-box-tablet';
+@import './text-banner/text-banner-tablet';
+@import './text-box/text-box';
+@import './text-box/text-box-tablet';
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: Rubik;
+	color: #333333;
+}
+body {
+	background-color: #fff;
+}

@@ -1,0 +1,11 @@
+.achieve {
+	position: absolute;
+	top: -24px;
+	left: -7px;
+	z-index: 999;
+	&__trophy-img {
+		width: 63px;
+		height: 84px;
+		margin-right: 7px;
+	}
+}

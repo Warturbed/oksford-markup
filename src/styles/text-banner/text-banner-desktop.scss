@@ -1,0 +1,16 @@
+.text-banner {
+	background: url(../img/index/oksford2.png);
+	background-size: cover;
+	height: 319px;
+	margin-top: 48px;
+	width: 560px;
+	&__content {
+		margin-top: 97px;
+		margin-left: 33.5px;
+	}
+	&__text {
+		padding-top: 4px;
+		margin-left: 97px;
+		width: 321px;
+	}
+}

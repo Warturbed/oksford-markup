@@ -1,0 +1,19 @@
+.achieve {
+	width: 600px;
+	&__trophy-img {
+		width: 63px;
+		height: 84px;
+		margin-right: 5px;
+	}
+	&__container {
+		&_margin-top {
+			margin-top: 41px;
+		}
+	}
+	&__line-img {
+		width: 288px;
+		height: 2px;
+		margin-left: 15px;
+		margin-right: 50px;
+	}
+}

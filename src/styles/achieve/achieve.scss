@@ -1,0 +1,45 @@
+.achieve {
+	display: flex;
+	margin-left: 5px;
+	height: 84px;
+	&__trophy-img {
+		width: 63px;
+		height: 84px;
+	}
+	&__container {
+		&_margin-top {
+			margin-top: 41px;
+		}
+		&_mobile {
+			margin-top: 32px;
+			margin-left: 89px;
+		}
+	}
+	&__line-img {
+		width: 288px;
+		height: 2px;
+	}
+	&__link {
+		position: relative;
+		font-size: 15px;
+		font-weight: 700;
+		padding-bottom: 5px;
+		border-bottom: 0.5px solid #333333;
+		line-height: 17px;
+		width: 100px;
+		&::before {
+			position: absolute;
+			z-index: -1;
+			top: -6px;
+			left: -18px;
+			content: url(../img/index/trophy-ellypse.png);
+			background-position: center;
+			background-size: cover;
+			width: 35px;
+			height: 35px;
+		}
+	}
+	&__link:hover {
+		border-bottom: 0.5px solid #ffe267;
+	}
+}

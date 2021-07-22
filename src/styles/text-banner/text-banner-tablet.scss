@@ -1,0 +1,16 @@
+.text-banner {
+	margin-top: 86px;
+	background: url(../img/tablet/oksford2-tablet.png);
+	background-size: cover;
+	width: 354px;
+	height: 319px;
+	&__content {
+		margin-top: 56px;
+		margin-left: 64.5px;
+	}
+	&__text {
+		width: 237px;
+		padding-top: 2px;
+		margin-left: 0;
+	}
+}
