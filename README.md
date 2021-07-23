@@ -1,4 +1,4 @@
-# oksford-markup
+# oksford(like oXford, but better)-markup
 
 ### Вёрстка 3-х страниц с ипользованием БЭМ и компонентного подхода.
 
